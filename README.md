@@ -108,17 +108,17 @@ A Smart Assistant assists local authorities during flood emergencies.
 
 ## 6. Challenges and Limitations
 
--Ambiguity in real-world scenarios	Hard to define fixed prompts for dynamic situations.
--Prompt Overfitting	Repeated scenarios may bias AI responses.
--Generalization issues	Limited adaptability to unseen conditions.
--Evaluation Complexity	Subjective quality judgments may vary among users.
+- Ambiguity in real-world scenarios	Hard to define fixed prompts for dynamic situations.
+- Prompt Overfitting	Repeated scenarios may bias AI responses.
+- Generalization issues	Limited adaptability to unseen conditions.
+- Evaluation Complexity	Subjective quality judgments may vary among users.
 
 ## 7. Best Practices for Scenario-Based Report Prompting
--Use role clarity to ground prompts contextually.
--Apply few-shot examples for consistency in outputs.
--Encourage chain-of-thought for reasoning-heavy tasks.
--Regularly validate outputs with real user data.
--Refine scenarios based on feedback loops and new edge cases.
+- Use role clarity to ground prompts contextually.
+- Apply few-shot examples for consistency in outputs.
+- Encourage chain-of-thought for reasoning-heavy tasks.
+- Regularly validate outputs with real user data.
+- Refine scenarios based on feedback loops and new edge cases.
 
 ## Conclusion
    scenario-based reporting with diverse prompting techniques creates more intelligent, adaptive, and reliable AI systems. Whether in healthcare, education, or emergency response, tailoring prompts to reflect real-world contexts ensures better system preparedness, user satisfaction, and design efficiency.
