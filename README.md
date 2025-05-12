@@ -23,8 +23,8 @@ Scenario-based report development involves using simulated real-life contexts to
 
 ## 2. Prompting Techniques: An Overview
 ## 2.1 Types of Prompting Techniques
-**Role-Based Prompting:**	Prompts the system to respond from the perspective of a specific role.
 
+**Role-Based Prompting:**	Prompts the system to respond from the perspective of a specific role.
 
 **Instructional Prompting:**	Provides specific commands or tasks to execute.
 
@@ -39,12 +39,14 @@ Scenario-based report development involves using simulated real-life contexts to
 ## 3. Integrating Prompting Techniques
 ## 3.1 Phase 1: Contextual Framing
 Establishes scenario background and sets up user goals through initial prompting.
+
 **Example Prompt:** “You are a health assistant monitoring elderly patients. What vital signs should be tracked every morning?”
 
 **Goal:** Frame the scope for patient-specific monitoring needs.
 
 ## 3.2 Phase 2: Scenario Simulation
 Creates interactive, evolving simulations to test the assistant’s adaptability.
+
 **Example Prompt:** “A patient’s blood pressure has suddenly spiked. How should the system alert the caregiver and suggest next steps?”
 
 **Goal:** Simulate real-time emergency management.
@@ -57,6 +59,7 @@ Evaluation criteria: clarity, medical accuracy, user personalization, urgency ha
 ## 4.1 Healthcare
 ### Scenario:
 An elderly diabetic patient uses the Smart Health Assistant to manage daily health.
+
 **Role-Based Prompting:** "Act as a digital nurse caring for a diabetic senior."
 
 **Instructional Prompting:** "Generate a morning checklist for health monitoring."
@@ -86,6 +89,7 @@ A student uses a Smart Assistant for homework support and time management.
 ## 4.3 Disaster Management
 ### Scenario:
 A Smart Assistant assists local authorities during flood emergencies.
+
 **Role-Based Prompting:** "Act as a disaster coordinator for flood-prone areas."
 
 **Instructional Prompting:** "Generate an evacuation checklist for affected families."
@@ -104,17 +108,17 @@ A Smart Assistant assists local authorities during flood emergencies.
 
 ## 6. Challenges and Limitations
 
-1.Ambiguity in real-world scenarios	Hard to define fixed prompts for dynamic situations.
-2.Prompt Overfitting	Repeated scenarios may bias AI responses.
-3.Generalization issues	Limited adaptability to unseen conditions.
-4.Evaluation Complexity	Subjective quality judgments may vary among users.
+-Ambiguity in real-world scenarios	Hard to define fixed prompts for dynamic situations.
+-Prompt Overfitting	Repeated scenarios may bias AI responses.
+-Generalization issues	Limited adaptability to unseen conditions.
+-Evaluation Complexity	Subjective quality judgments may vary among users.
 
 ## 7. Best Practices for Scenario-Based Report Prompting
-1.Use role clarity to ground prompts contextually.
-2.Apply few-shot examples for consistency in outputs.
-3.Encourage chain-of-thought for reasoning-heavy tasks.
-4.Regularly validate outputs with real user data.
-5.Refine scenarios based on feedback loops and new edge cases.
+-Use role clarity to ground prompts contextually.
+-Apply few-shot examples for consistency in outputs.
+-Encourage chain-of-thought for reasoning-heavy tasks.
+-Regularly validate outputs with real user data.
+-Refine scenarios based on feedback loops and new edge cases.
 
 ## Conclusion
    scenario-based reporting with diverse prompting techniques creates more intelligent, adaptive, and reliable AI systems. Whether in healthcare, education, or emergency response, tailoring prompts to reflect real-world contexts ensures better system preparedness, user satisfaction, and design efficiency.
